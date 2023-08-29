@@ -1,0 +1,42 @@
+
+        @media (min-width: 600px) {
+            body {
+                font-style: normal;
+                background-color: rgb(126, 233, 162) ;
+            }
+        }
+        @media (max-width: 599px) {
+            body {
+                font-style: oblique ;
+                background-color: rgb(89, 170, 72);
+            }
+        }
+
+            h1 {text-align: center;}
+            #container {
+                display: flex;
+                flex-wrap: wrap;
+                align-content: center;
+            }
+            
+            #container > div {
+                background-color: burlywood;
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+                width: 200px;
+                border-radius: 150px;
+                text-align: center;
+                border: 20px;
+                width: 10vw;
+                max-width: 200px;
+                min-width: 200px;
+                
+            } 
+            #cat01 {color: blue}
+            
+            
+           
+            #cat04 {color: rgb(35, 185, 185);}
+            #cat05 {color: aqua;}
+        
